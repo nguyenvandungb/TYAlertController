@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, TYAlertTransitionAnimation) {
 @property (nonatomic, assign, readonly) Class transitionAnimationClass;
 
 @property (nonatomic, assign) BOOL backgoundTapDismissEnable;  // default NO
-
+@property (nonatomic, assign) BOOL autoHandleKeyboard;
 @property (nonatomic, assign) CGFloat alertViewOriginY;  // default center Y
 
 @property (nonatomic, assign) CGFloat alertStyleEdging; //  when width frame equal to 0,or no width constraint ,this proprty will use, default to 15 edge
